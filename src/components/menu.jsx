@@ -97,10 +97,9 @@ const Menu = () => {
     
       <div className="container md:py-13 px-5 md:px-10 2xl:px-25">
 
-        {/* HEADER SECTION */}
+      
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 mb-8">
 
-          {/* LEFT TEXT */}
           <div className="flex flex-col items-start gap-2">
             <p className="text-sm font-semibold  tracking-[3px]">
               notre menu 
@@ -120,7 +119,6 @@ const Menu = () => {
 
           </div>
 
-          {/* RIGHT IMAGE */}
           <div className="flex justify-center min-w-0 2xl:ml-85">
 
             <img
@@ -133,7 +131,6 @@ const Menu = () => {
 
         </div>
 
-        {/* CATEGORY BUTTONS */}
         <div className="flex flex-wrap items-center gap-3 sm:gap-5 mb-10">
 
           {categories.map((category) => (
@@ -159,7 +156,6 @@ const Menu = () => {
 
         </div>
 
-        {/* PRODUCTS GRID */}
         <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
 
           {filteredProducts.map((item) => (
@@ -177,7 +173,6 @@ const Menu = () => {
               "
             >
 
-              {/* PRODUCT IMAGE */}
               <div className="flex justify-center items-center h-37.5 mb-4">
 
                 <img
@@ -188,17 +183,14 @@ const Menu = () => {
 
               </div>
 
-              {/* PRODUCT NAME */}
               <h3 className="text-lg font-bold mb-1">
                 {item.name}
               </h3>
 
-              {/* DESCRIPTION */}
               <p className="text-sm text-gray-600 mb-5">
                 {item.description}
               </p>
 
-              {/* PRICE + BUTTON */}
               <div className="flex items-center justify-between mt-auto">
 
                 <span className="font-bold text-base">

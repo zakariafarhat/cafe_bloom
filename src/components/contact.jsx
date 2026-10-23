@@ -7,10 +7,8 @@ const Contact = () => {
     
       <div className="  px-15 py-1 mt-30 ">
 
-        {/* MAIN GRID */}
         <div className="relative grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-6">
 
-          {/* LEFT CONTACT INFORMATION */}
           <div className="relative z-20 lg:col-span-4 xl:col-span-4">
 
             <div className="mb-2 flex items-center gap-2">
@@ -33,7 +31,6 @@ const Contact = () => {
               Notre équipe est à votre écoute avec plaisir.
             </p>
 
-            {/* PHONE */}
             <div className="mb-7 flex items-center gap-5">
 
               <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f1e6da]">
@@ -51,13 +48,12 @@ const Contact = () => {
                 </h3>
 
                 <p className="text-gray-700">
-                  06 12 34 56 78
+                  07 75 77 06 60
                 </p>
               </div>
 
             </div>
 
-            {/* EMAIL */}
             <div className="mb-7 flex items-center gap-5">
 
               <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f1e6da]">
@@ -74,13 +70,12 @@ const Contact = () => {
                 </h3>
 
                 <p className="wrap-break-word text-gray-700">
-                  contact@cafebloom.ma
+                  farhatzakaria26@gmail.com
                 </p>
               </div>
 
             </div>
 
-            {/* ADDRESS */}
             <div className="mb-10 flex items-center gap-5">
 
               <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-[#f1e6da]">
@@ -98,7 +93,7 @@ const Contact = () => {
                 </h3>
 
                 <p className="text-gray-700">
-                  123 Avenue des Fleurs,
+                  maarif,
                   <br />
                   Casablanca, Maroc
                 </p>
@@ -109,7 +104,6 @@ const Contact = () => {
            
           </div>
 
-          {/* CENTER CONTACT FORM */}
           <div className="relative z-20 min-w-0 lg:col-span-5 xl:col-span-5">
 
             <div className="w-full border-2 border-black  p-5 shadow-[6px_6px_0px_#000] sm:p-7 xl:p-9">
@@ -123,7 +117,6 @@ const Contact = () => {
                 className="flex flex-col gap-5"
               >
 
-                {/* NAME + EMAIL */}
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
 
                   <input
@@ -142,7 +135,6 @@ const Contact = () => {
 
                 </div>
 
-                {/* SUBJECT */}
                 <input
                   type="text"
                   placeholder="Sujet"
@@ -150,7 +142,6 @@ const Contact = () => {
                   className="h-14 w-full border-2 border-black bg-transparent px-4 outline-none transition focus:border-black"
                 />
 
-                {/* MESSAGE */}
                 <textarea
                   placeholder="Votre message..."
                   rows={6}
@@ -158,7 +149,6 @@ const Contact = () => {
                   className="w-full resize-none border-2 border-black  bg-transparent p-4 outline-none transition focus:border-black"
                 />
 
-                {/* BUTTON */}
                 <button
                   type="submit"
                   className="flex h-14 w-full cursor-pointer border-2 items-center justify-center gap-3 hover:bg-black font-medium hover:text-white transition-all duration-300 bg-white text-black"
@@ -173,10 +163,8 @@ const Contact = () => {
 
           </div>
 
-          {/* RIGHT IMAGE */}
           <div className="relative hidden h-162.5 min-w-0 lg:col-span-3 lg:block xl:h-187.5">
 
-            {/* DECORATIVE TEXT */}
             <p className="absolute left-0 top-12 z-10 rotate-[-8deg] font-serif text-xl italic leading-tight xl:text-2xl">
               Good
               <br />

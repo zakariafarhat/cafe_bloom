@@ -32,8 +32,8 @@ const liste =[
   return (
    <>
    <div className='continair flex flex-col lg:flex-row justify-between items-center sticky top-0 left-0 w-full z-50 bg-white shadow-md '>
-     <div className='w-28 sm:w-32 lg:w-40 shrink-0 '>
-        <img src={logo} alt="" />
+     <div className='w-28 sm:w-32 lg:w-40 shrink-0 ' >
+        <img src={logo} alt=""/>
      </div>
      <div className='flex flex-wrap lg:flex-nowrap justify-center items-center w-full lg:w-auto px-4 lg:px-0 pb-3 lg:pb-0 lg:mr-13 gap-x-4 gap-y-2 sm:gap-x-6 lg:gap-8 text-xs sm:text-sm lg:text-base font-semibold '>
         {liste.map((e)=>{

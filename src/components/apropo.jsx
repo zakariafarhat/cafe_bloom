@@ -33,7 +33,6 @@ const Apropo = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-16">
 
-            {/* LEFT SECTION */}
             <div className="flex flex-col items-start">
 
               <p className="text-sm font-semibold  tracking-[2px] mb-2">
@@ -52,7 +51,6 @@ const Apropo = () => {
                 d'un bon café dans une ambiance chaleureuse.
               </p>
 
-              {/* ABOUT CARDS */}
               <div className="flex flex-col gap-5 w-full">
 
                 {apropoCards.map((item) => (
@@ -62,7 +60,6 @@ const Apropo = () => {
                     className="flex items-center gap-5"
                   >
 
-                    {/* ICON */}
                     <div className="
                       flex items-center justify-center
                       w-17.5 h-17.5
@@ -75,7 +72,6 @@ const Apropo = () => {
                       {item.icon}
                     </div>
 
-                    {/* TEXT */}
                     <div className="flex flex-col gap-1">
 
                       <h3 className="text-lg font-bold">
@@ -96,7 +92,6 @@ const Apropo = () => {
 
             </div>
 
-            {/* RIGHT IMAGE */}
             <div className="flex justify-center lg:justify-end">
 
               <img
